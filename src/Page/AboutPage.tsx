@@ -1,5 +1,10 @@
 import React from "react";
 import { PillButton } from "../Component/Common/PillButton";
+import { AboutVideoStats } from "../Component/About/AboutVideoStats";
+import { WhoWeAreStatement } from "../Component/About/WhoWeAreStatement";
+import { AboutMissionCard } from "../Component/About/AboutMissionCard";
+import { AboutPastelStats } from "../Component/About/AboutPastelStats";
+import { AboutTeamSection } from "../Component/About/AboutTeamSection";
 import { Check, ShieldCheck, Terminal, Heart, Sparkles, Globe } from "lucide-react";
 
 export const AboutPage: React.FC = () => {
@@ -45,42 +50,20 @@ export const AboutPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Story Narrative & Visual */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          <div className="lg:col-span-6 rounded-3xl overflow-hidden shadow-2xl relative h-[420px]">
-            <img
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1000&q=80"
-              alt="SoftLunar engineering workspace"
-              className="w-full h-full object-cover object-center"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6 text-white">
-              <span className="text-xs uppercase font-bold tracking-wider text-[#A59DFE]">
-                High Craft Culture
-              </span>
-              <h3 className="text-xl font-bold mt-1">
-                Engineers building for engineers and high-growth enterprises
-              </h3>
-            </div>
-          </div>
+      {/* Video & Company Metrics Showcase matching reference */}
+      <AboutVideoStats />
 
-          <div className="lg:col-span-6 space-y-6">
-            <h2 className="text-3xl font-extrabold text-[#0B0E14] tracking-tight">
-              A modern software studio built on precision and velocity
-            </h2>
-            <p className="text-neutral-600 text-base leading-relaxed">
-              At SoftLunar, we don’t believe in massive bloated teams. Instead, we pair clients directly with elite senior front-end, mobile, backend, and cloud architects who have built and scaled systems handling millions of users.
-            </p>
-            <p className="text-neutral-600 text-base leading-relaxed">
-              Whether building an enterprise multi-tenant ERP platform, an ultra-fast headless e-commerce experience, or a viral consumer mobile app, our codebases are delivered clean, modular, and ready to evolve with your business.
-            </p>
-            <div className="pt-2">
-              <PillButton to="/contact" text="Work With Our Team" size="default" />
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* High Impact "Who We Are" Statement */}
+      <WhoWeAreStatement />
+
+      {/* Mission & Offset Stacked Image Card matching uploaded design */}
+      <AboutMissionCard />
+
+      {/* 3 Pastel Atmospheric Stat Cards matching uploaded design */}
+      <AboutPastelStats />
+
+      {/* Team Showcase matching reference image */}
+      <AboutTeamSection />
 
       {/* Core Engineering Values */}
       <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mb-20">
