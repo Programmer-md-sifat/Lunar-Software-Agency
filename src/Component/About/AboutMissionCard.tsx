@@ -20,7 +20,7 @@ export const AboutMissionCard: React.FC = () => {
           </h2>
 
           <p className="text-neutral-500 text-base sm:text-lg leading-relaxed max-w-xl">
-            Our mission is to provide exceptional engineering and cloud support that empowers ambitious teams to achieve their goals efficiently and effectively. We strive to innovate and enhance digital products through intelligent, scalable solutions that adapt seamlessly to evolving business needs.
+            Our mission is to build reliable, high-quality software that empowers growing teams. We simplify tech challenges so your business can innovate and succeed with confidence.
           </p>
         </motion.div>
 

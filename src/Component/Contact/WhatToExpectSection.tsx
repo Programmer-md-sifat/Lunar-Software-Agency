@@ -8,28 +8,25 @@ export const WhatToExpectSection: React.FC = () => {
       id: "step-1",
       icon: Crown,
       title: "Send us a message",
-      description: "This is like our first date, and we appreciate you taking the first step.",
+      description: "Fill out our contact form with a few details. Taking the first step is quick and easy.",
     },
     {
       id: "step-2",
       icon: MessageSquareText,
-      title: "We will get back to you soon",
-      description:
-        "We have team members handling correspondence, so we usually respond to inquiries very fast. Unless, you know, the servers are extra busy.",
+      title: "We reply quickly",
+      description: "Our team checks incoming messages constantly and will reply within 24 hours.",
     },
     {
       id: "step-3",
       icon: FileText,
-      title: "Meet and proposal",
-      description:
-        "We meet. We scope. We issue a proposal. We negotiate. We discuss. We agree. We start. Simple.",
+      title: "Short meeting & clear plan",
+      description: "We talk through your goals, share a simple proposal with cost estimates, and answer your questions.",
     },
     {
       id: "step-4",
       icon: Zap,
-      title: "Let's collaborate!",
-      description:
-        '"I think this is the beginning of a beautiful friendship". We, too, believe the best is yet to come.',
+      title: "Let's start building!",
+      description: "Once approved, we assign your dedicated team and kick off development immediately.",
     },
   ];
 
@@ -45,7 +42,7 @@ export const WhatToExpectSection: React.FC = () => {
           className="lg:col-span-5"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-[48px] font-extrabold text-[#0B0E14] tracking-[-0.025em] leading-[1.18]">
-            What to expect. Fourth base on a first date?
+            What to expect when working with us
           </h2>
         </motion.div>
 

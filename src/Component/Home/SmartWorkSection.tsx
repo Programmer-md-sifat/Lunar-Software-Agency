@@ -18,18 +18,18 @@ export const SmartWorkSection: React.FC = () => {
   const features = [
     {
       icon: Sparkles,
-      title: "AI-Powered Automation & Copilots",
-      desc: "Accelerate productivity by integrating custom generative AI workflows, intelligent chatbots, and automated pipeline execution.",
+      title: "Smart AI & Time-Saving Automation",
+      desc: "Speed up daily tasks with custom AI tools, helpful chatbots, and automatic updates.",
     },
     {
       icon: Zap,
-      title: "High-Performance Cloud Architecture",
-      desc: "Engineered for sub-second response times, zero downtime, and elastic scalability across modern distributed cloud infrastructure.",
+      title: "Fast & Reliable Web Performance",
+      desc: "Built to load instantly, stay online 24/7, and handle thousands of visitors without slowing down.",
     },
     {
       icon: Layers,
-      title: "Integrated ERP & Operation Systems",
-      desc: "Consolidate complex workflows into intuitive portals with automated task delegation, real-time sync, and granular access controls.",
+      title: "Simple All-in-One Business Tools",
+      desc: "Bring your team, tasks, and data into one easy-to-use dashboard.",
     },
   ];
 
@@ -51,7 +51,7 @@ export const SmartWorkSection: React.FC = () => {
                 Working smarter, not harder for every project
               </h2>
               <p className="text-neutral-500 text-base mt-4 leading-relaxed">
-                We combine human craftsmanship with intelligent automation to build resilient software systems that outpace competitors.
+                We combine friendly expert design with smart automation to build websites and software that help your business succeed.
               </p>
             </div>
 

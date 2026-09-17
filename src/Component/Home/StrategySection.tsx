@@ -26,7 +26,7 @@ export const StrategySection: React.FC = () => {
       step: "STEP 01",
       phase: "PHASE 01",
       title: "Discovery & Planning",
-      desc: "We align on scope, deliverables, roadmap details, and clear business metrics before coding.",
+      desc: "We discuss your goals, project details, and timeline so everyone is aligned before building.",
       icon: Compass,
       iconBg: "bg-gradient-to-br from-[#0EA5E9] to-[#0284C7] shadow-sky-500/25",
       cardBg: "bg-gradient-to-b from-[#F0F9FF]/80 via-white to-white",
@@ -35,8 +35,8 @@ export const StrategySection: React.FC = () => {
     {
       step: "STEP 02",
       phase: "PHASE 02",
-      title: "UI/UX Architecture",
-      desc: "We design wireframes, responsive grids, user flows, and hi-fi design mockups for approval.",
+      title: "UI/UX Design",
+      desc: "We create clean, user-friendly designs and screen previews for your approval.",
       icon: LayoutGrid,
       iconBg: "bg-gradient-to-br from-[#10B981] to-[#059669] shadow-emerald-500/25",
       cardBg: "bg-gradient-to-b from-[#F0FDF4]/80 via-white to-white",
@@ -45,8 +45,8 @@ export const StrategySection: React.FC = () => {
     {
       step: "STEP 03",
       phase: "PHASE 03",
-      title: "Sprint-Based Dev",
-      desc: "Clean coding, version-controlled repository updates, and agile modular components creation.",
+      title: "Development",
+      desc: "Our developers write clean, fast code and build reliable software step by step.",
       icon: Code2,
       iconBg: "bg-gradient-to-br from-[#3B82F6] to-[#1D4ED8] shadow-blue-500/25",
       cardBg: "bg-gradient-to-b from-[#EFF6FF]/80 via-white to-white",
@@ -55,8 +55,8 @@ export const StrategySection: React.FC = () => {
     {
       step: "STEP 04",
       phase: "PHASE 04",
-      title: "Rigorous Testing",
-      desc: "Cross-device verification, manual QA runs, automated unit scripts, and load testing checks.",
+      title: "Quality Testing",
+      desc: "We test everything thoroughly on phones, tablets, and computers to ensure no bugs.",
       icon: ShieldCheck,
       iconBg: "bg-gradient-to-br from-[#14B8A6] to-[#0F766E] shadow-teal-500/25",
       cardBg: "bg-gradient-to-b from-[#F0FDFA]/80 via-white to-white",
@@ -65,8 +65,8 @@ export const StrategySection: React.FC = () => {
     {
       step: "STEP 05",
       phase: "PHASE 05",
-      title: "Deployment & Go-Live",
-      desc: "Production setup, CI/CD pipeline deployments, domain bindings, and automated cloud syncs.",
+      title: "Launch & Go-Live",
+      desc: "We publish your website or app smoothly and make sure everything runs live perfectly.",
       icon: Rocket,
       iconBg: "bg-gradient-to-br from-[#0284C7] to-[#2563EB] shadow-blue-500/25",
       cardBg: "bg-gradient-to-b from-[#F0F9FF]/80 via-white to-white",
@@ -75,8 +75,8 @@ export const StrategySection: React.FC = () => {
     {
       step: "STEP 06",
       phase: "PHASE 06",
-      title: "Evolution & SLA",
-      desc: "Continuous performance audits, feature scale integrations, and support SLA maintenance.",
+      title: "Support & Growth",
+      desc: "We provide ongoing maintenance, updates, and helpful support as your business grows.",
       icon: TrendingUp,
       iconBg: "bg-gradient-to-br from-[#06B6D4] to-[#0284C7] shadow-cyan-500/25",
       cardBg: "bg-gradient-to-b from-[#ECFEFF]/80 via-white to-white",
@@ -110,7 +110,7 @@ export const StrategySection: React.FC = () => {
               {/* Dark horizontal bar matching screenshot */}
               <div className="w-16 h-1 bg-[#0B0E14] rounded-full mb-4" />
               <p className="text-neutral-500 text-sm sm:text-base leading-relaxed">
-                Modern software engineering is all about velocity, reliability, and precision. We handle every complex architectural detail so you can focus entirely on expanding your business without the hassle.
+                Building software should be simple, clear, and stress-free. We handle all the technical work so you can focus entirely on growing your business.
               </p>
             </div>
           </div>

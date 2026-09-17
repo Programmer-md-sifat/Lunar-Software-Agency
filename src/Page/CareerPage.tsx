@@ -10,23 +10,23 @@ export const CareerPage: React.FC = () => {
   const perks = [
     {
       icon: Laptop,
-      title: "Remote-First Culture",
-      desc: "Work from anywhere in the world with flexible hours and dedicated home office allowances.",
+      title: "Remote-First Work",
+      desc: "Work from anywhere with flexible working hours and home office support.",
     },
     {
       icon: Compass,
-      title: "Engineering Autonomy",
-      desc: "Architect systems using modern tools. We trust our engineers with ownership and continuous deployment.",
+      title: "Creative Freedom",
+      desc: "Build software with modern tools. We trust our developers to make great decisions.",
     },
     {
       icon: HeartHandshake,
       title: "Health & Well-being",
-      desc: "Comprehensive health, dental, and wellness stipends, plus generous paid parental and sabbatical leave.",
+      desc: "Full healthcare coverage, wellness stipends, and generous paid time off.",
     },
     {
       icon: Award,
-      title: "Continuous Mastery",
-      desc: "$3,000 annual learning budget for conferences, advanced certifications, and technical research.",
+      title: "Learning & Growth",
+      desc: "Annual learning budget for courses, conferences, and technical books.",
     },
   ];
 
@@ -38,13 +38,13 @@ export const CareerPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center max-w-4xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0EDFF] text-[#5B4DFC] text-xs font-semibold mb-4 border border-[#E2DCFF]">
             <Sparkles size={14} />
-            <span>Join SoftLunar</span>
+            <span>Join LESoft</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B0E14] tracking-tight mb-6 leading-tight">
-            Build critical software with high-craft engineers
+            Build great software with friendly, skilled engineers
           </h1>
           <p className="text-neutral-500 text-lg leading-relaxed max-w-2xl mx-auto">
-            We are looking for exceptional builders who care deeply about code quality, distributed performance, and pristine user interfaces.
+            We are always looking for friendly developers and designers who care about building clean, fast, and easy-to-use software.
           </p>
         </div>
       </section>

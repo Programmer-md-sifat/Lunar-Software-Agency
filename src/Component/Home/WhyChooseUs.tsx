@@ -6,23 +6,23 @@ export const WhyChooseUs: React.FC = () => {
   const points = [
     {
       icon: Zap,
-      title: "60% Faster Time-to-Market",
-      desc: "Our battle-tested component blueprints and automated CI pipelines bypass months of boilerplate so you launch production-ready products earlier.",
+      title: "Faster Project Delivery",
+      desc: "Our pre-built design tools and templates help us build your website or app quickly without months of waiting.",
     },
     {
       icon: ShieldCheck,
-      title: "Architectural Integrity",
-      desc: "Zero-compromise engineering: strict TypeScript type contracts, full test coverage, robust database migrations, and clean modular codebases.",
+      title: "Reliable Quality Code",
+      desc: "We write clean, bug-free code with thorough testing so your app works reliably every single time.",
     },
     {
       icon: GitMerge,
-      title: "Direct Senior Engineering",
-      desc: "Work directly with senior systems architects and staff developers. No middlemen, no junior handoffs, and complete transparent daily progress.",
+      title: "Direct Team Access",
+      desc: "Talk directly with the senior developers building your project. Clear updates with no confusing middlemen.",
     },
     {
       icon: Headphones,
-      title: "Continuous 24/7 Support",
-      desc: "Dedicated SLA response guarantees, real-time APM telemetry, and long-term maintenance ensure your systems run without interruptions.",
+      title: "24/7 Helpful Support",
+      desc: "We are always here to keep your software updated, secure, and running smoothly day and night.",
     },
   ];
 
@@ -31,13 +31,13 @@ export const WhyChooseUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F0EDFF] text-[#5B4DFC] text-xs font-semibold mb-3">
-            The SoftLunar Advantage
+            The LESoft Advantage
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#0B0E14] tracking-tight mb-4">
-            Built for velocity, engineered for scale
+            Built for speed, made for growth
           </h2>
           <p className="text-neutral-500 text-base leading-relaxed">
-            We bridge the gap between design precision and cloud engineering so your digital platforms outclass competitors from day one.
+            We build simple, powerful software that helps your business stand out and succeed from day one.
           </p>
         </div>
 

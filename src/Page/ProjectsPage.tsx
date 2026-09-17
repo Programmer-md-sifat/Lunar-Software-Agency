@@ -24,13 +24,13 @@ export const ProjectsPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center max-w-4xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0EDFF] text-[#6952FF] text-xs font-semibold mb-4 border border-[#E2DCFF]">
             <Sparkles size={14} />
-            <span>Featured Case Studies</span>
+            <span>Recent Projects</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B0E14] tracking-tight mb-5 leading-tight">
-            Crafted digital experiences that make an impact
+            Our work and success stories
           </h1>
           <p className="text-neutral-500 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto">
-            Explore our curated selection of web platforms, mobile apps, e-commerce architectures, and enterprise systems.
+            Check out the web applications, mobile apps, and online stores we have built for our clients.
           </p>
         </div>
       </section>

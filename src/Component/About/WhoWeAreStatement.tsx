@@ -26,11 +26,11 @@ export const WhoWeAreStatement: React.FC = () => {
         className="max-w-5xl mx-auto"
       >
         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-extrabold text-[#0B0E14] leading-[1.32] tracking-[-0.02em]">
-          <span className="text-[#2563EB]">At SoftLunar,</span> we partner with ambitious founders, enterprise leaders, and high-growth organizations—helping them scale faster, engineer smarter, and outperform competitors through{" "}
+          <span className="text-[#2563EB]">At LESoft,</span> we work with business owners and growing companies—helping them build faster, work smarter, and succeed through{" "}
           <span className="text-[#2563EB]">
-            cloud-native architectures, custom software, intelligent automation, and resilient design systems
+            custom web software, fast mobile apps, smart automation, and clean designs
           </span>{" "}
-          that drive tangible enterprise value."
+          that make a real difference."
         </p>
       </motion.div>
     </section>

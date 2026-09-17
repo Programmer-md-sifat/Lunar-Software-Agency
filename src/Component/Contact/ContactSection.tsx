@@ -33,7 +33,7 @@ export const ContactSection: React.FC = () => {
             Let’s talk
           </h2>
           <p className="text-neutral-500 text-base sm:text-lg leading-relaxed max-w-md">
-            If you have any questions or need assistance with LunarSoft our dedicated team is here.
+            If you have any questions or need assistance, the LESoft team is always ready to help.
           </p>
         </motion.div>
 
@@ -55,7 +55,7 @@ export const ContactSection: React.FC = () => {
                   Message Sent Successfully!
                 </h3>
                 <p className="text-neutral-500 text-sm max-w-xs mx-auto">
-                  Thank you for reaching out to LunarSoft. Our engineering team will review your message and reply within 24 hours.
+                  Thank you for reaching out to LESoft. Our team will review your message and reply within 24 hours.
                 </p>
                 <button
                   type="button"

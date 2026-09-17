@@ -19,7 +19,7 @@ export const CTASection: React.FC = () => {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#5B4DFC]/20 border border-[#5B4DFC]/30 text-[#A59DFE] text-xs font-semibold mb-6"
           >
             <Sparkles size={14} />
-            <span>Ready to accelerate your roadmap?</span>
+            <span>Ready to build something great?</span>
           </motion.div>
 
           <motion.h2
@@ -29,8 +29,8 @@ export const CTASection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12] mb-6"
           >
-            Spend 60% less time. <br />
-            Ship enterprise software faster.
+            Build your website & app <br />
+            faster and stress-free.
           </motion.h2>
 
           <motion.p
@@ -40,7 +40,7 @@ export const CTASection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-neutral-400 text-base sm:text-lg mb-10 max-w-xl mx-auto leading-relaxed"
           >
-            Schedule a confidential technical discovery session with our senior engineering architects. Receive an actionable architecture proposal in 48 hours.
+            Book a free, friendly chat with our development team. Get a clear project plan and estimate within 48 hours.
           </motion.p>
 
           <motion.div
@@ -52,13 +52,13 @@ export const CTASection: React.FC = () => {
           >
             <PillButton
               to="/contact"
-              text="Schedule Technical Discovery"
+              text="Book a Free Call"
               variant="purple"
               size="lg"
             />
             <PillButton
               to="/projects"
-              text="Explore Case Studies"
+              text="View Our Work"
               variant="light"
               size="lg"
             />

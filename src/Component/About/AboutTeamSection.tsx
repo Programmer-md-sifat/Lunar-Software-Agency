@@ -85,7 +85,7 @@ export const AboutTeamSection: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="text-3xl sm:text-4xl lg:text-[46px] font-black text-[#0B0E14] tracking-[-0.02em] leading-tight"
         >
-          The amazing team behind SoftLunar
+          The dedicated team behind LESoft
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 14 }}
@@ -94,7 +94,7 @@ export const AboutTeamSection: React.FC = () => {
           transition={{ duration: 0.5, delay: 0.08 }}
           className="text-neutral-500 text-sm sm:text-base mt-3 leading-relaxed max-w-lg mx-auto"
         >
-          A collective of passionate engineers, designers, and strategists dedicated to crafting exceptional digital experiences.
+          A friendly team of software developers, designers, and project managers focused on building great digital products.
         </motion.p>
       </div>
 

@@ -11,23 +11,23 @@ export const AboutPage: React.FC = () => {
   const values = [
     {
       icon: Terminal,
-      title: "Clean Code & Zero Tech Debt",
-      desc: "Every line of code is written with rigorous typing, modular isolation, and thorough unit tests to guarantee long-term maintainability.",
+      title: "Clean & High-Quality Code",
+      desc: "Every line of code is written carefully and tested thoroughly to make sure your software runs reliably for years.",
     },
     {
       icon: ShieldCheck,
-      title: "Architectural Resilience",
-      desc: "We build systems designed to gracefully handle network partitions, traffic spikes, and real-world failure states.",
+      title: "Strong & Secure Systems",
+      desc: "We build secure software designed to handle high traffic and stay online without crashes.",
     },
     {
       icon: Globe,
-      title: "Global Collaboration",
-      desc: "Distributed senior engineering squads working asynchronously across time zones with radical transparency.",
+      title: "Friendly & Clear Communication",
+      desc: "Our developer team works closely with you, providing simple updates and total transparency.",
     },
     {
       icon: Heart,
-      title: "Obsessive Product Craft",
-      desc: "We refuse generic templates. Every animation curve, typography pairing, and database index is deliberately calibrated.",
+      title: "Care for Every Detail",
+      desc: "We take pride in every design, animation, and button to make your website or app look and feel amazing.",
     },
   ];
 
@@ -39,13 +39,13 @@ export const AboutPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center max-w-4xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0EDFF] text-[#5B4DFC] text-xs font-semibold mb-4 border border-[#E2DCFF]">
             <Sparkles size={14} />
-            <span>Our Origin & Philosophy</span>
+            <span>Our Story & Mission</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B0E14] tracking-tight mb-6 leading-tight">
-            We exist to engineer software that elevates enterprise standards
+            We build software that helps companies grow with ease
           </h1>
           <p className="text-neutral-500 text-lg leading-relaxed max-w-2xl mx-auto">
-            SoftLunar was founded by senior systems architects who were tired of bloated consultancies and fragile outsourced codebases.
+            LESoft was created by senior software engineers dedicated to delivering fast, easy-to-use digital products.
           </p>
         </div>
       </section>

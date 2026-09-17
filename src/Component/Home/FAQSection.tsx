@@ -12,39 +12,39 @@ export const FAQSection: React.FC = () => {
 
   const faqs: FAQItem[] = [
     {
-      question: "How fast can we kick off our project and onboard?",
+      question: "How fast can we start working on my project?",
       answer:
-        "We typically begin within 48 to 72 hours after the initial discovery consultation. We assign a dedicated senior team, configure version-controlled git repositories, set up automated CI/CD staging environments, and invite your team to a private Slack or Teams channel for continuous collaboration.",
+        "We usually start within 2 to 3 days after our first call. We set up your project tools, assign dedicated developers, and invite you to a private chat channel so you get daily updates.",
     },
     {
-      question: "What engagement and pricing models do you offer?",
+      question: "How does pricing work?",
       answer:
-        "We offer two transparent pricing structures: Milestone-based Fixed Pricing for well-defined roadmaps with clear deliverables, and Dedicated Agile Sprints (Time & Materials) for dynamic products requiring iterative feature rollouts and ongoing architectural evolution.",
+        "We offer two simple pricing options: Fixed Project Pricing for clear, step-by-step projects, and Monthly Dedicated Sprints if you need continuous development and updates.",
     },
     {
-      question: "Who owns the code, intellectual property, and design assets?",
+      question: "Who owns the code and design files?",
       answer:
-        "You do — 100%. All source code, Figma design files, architectural documentation, database schemas, and deployment credentials are fully owned and transferred to your company upon project milestones. We never hold your code hostage.",
+        "You own 100% of everything we build. All code, designs, and files belong entirely to you from day one.",
     },
     {
-      question: "What modern tech stacks and cloud architectures do you specialize in?",
+      question: "What technologies do you build with?",
       answer:
-        "We specialize in modern enterprise technology stacks: TypeScript, React, Next.js, Node.js, Python, Golang, PostgreSQL, Redis, React Native, and Flutter. For cloud infrastructure, we build on AWS, Google Cloud Platform, Cloudflare, and Docker/Kubernetes container systems.",
+        "We build with modern, trusted tools like React, TypeScript, Node.js, Python, PostgreSQL, React Native, Flutter, AWS, and Google Cloud. Everything is built to be fast and secure.",
     },
     {
-      question: "How do you guarantee code quality, performance, and security?",
+      question: "How do you make sure the software is bug-free and fast?",
       answer:
-        "Every single pull request undergoes automated linting, strict TypeScript type checking, comprehensive unit/integration test suites, and peer code reviews before staging deployment. We implement OWASP top-10 security guidelines and achieve sub-second load times.",
+        "Our team tests every feature on multiple phones and computers before publishing. We double-check performance and security so your users get a smooth experience.",
     },
     {
-      question: "Do you offer post-launch maintenance, SLAs, and continuous support?",
+      question: "Do you offer support after the project is launched?",
       answer:
-        "Yes. We offer comprehensive 24/7 SLA maintenance packages that include proactive server monitoring, regular security updates, dependency patching, database backups, and rapid-response bug fixes with guaranteed response times under 1 hour.",
+        "Yes! We provide ongoing support, security updates, server monitoring, and bug fixes to keep your website or app running smoothly 24/7.",
     },
     {
-      question: "Can you take over or modernize an existing legacy codebase?",
+      question: "Can you fix or upgrade an existing website or app?",
       answer:
-        "Absolutely. We frequently perform codebase audits, performance profiling, and step-by-step legacy refactoring. We upgrade outdated libraries, remediate technical debt, and migrate monolithic applications to high-performance microservices or modular setups without downtime.",
+        "Yes, we can take over existing projects, clean up old code, fix bugs, and add new features without breaking your live system.",
     },
   ];
 
@@ -88,7 +88,7 @@ export const FAQSection: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.15 }}
             className="text-neutral-500 text-base mt-4 leading-relaxed max-w-2xl mx-auto"
           >
-            Everything you need to know about our engineering standards, project delivery workflows, intellectual property ownership, and continuous support.
+            Everything you need to know about how we work, pricing, code ownership, and support.
           </motion.p>
         </div>
 

@@ -12,15 +12,15 @@ export const HeroSection: React.FC = () => {
   const slides: HeroSlide[] = [
     {
       title: "Custom Web & Software Development",
-      des: "Empowering enterprises with ultra-fast web platforms, cloud architectures, and scalable software built to accelerate digital growth.",
+      des: "We build fast, easy-to-use websites and custom web software to help your business grow and run smoothly.",
     },
     {
       title: "Mobile Apps & AI-Powered Solutions",
-      des: "Engineered for speed and engagement. We craft high-performance mobile apps and integrate AI to elevate user experiences.",
+      des: "We design simple, high-speed mobile apps and smart AI tools that your customers will love using every day.",
     },
     {
       title: "Enterprise Cloud & Custom ERP Systems",
-      des: "Streamline operations and eliminate technical debt with resilient cloud infrastructure, custom CMS, and automated business workflows.",
+      des: "We create reliable cloud systems and all-in-one business software to save your team time and effort.",
     },
   ];
 

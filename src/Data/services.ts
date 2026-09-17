@@ -14,34 +14,34 @@ export const servicesData: ServiceItem[] = [
   {
     id: "custom-software",
     title: "Custom Software Development",
-    shortDescription: "Tailored, scalable cloud-native architectures engineered specifically to streamline enterprise workflows.",
-    fullDescription: "From complex enterprise workflows to modern distributed microservices, we build reliable, high-performance software systems that eliminate bottlenecks and scale alongside your business demands.",
+    shortDescription: "Custom web software built to make your daily business operations simpler and faster.",
+    fullDescription: "We build reliable, easy-to-use custom software tailored to your business needs. Whether you need an internal portal or a web platform, we help you save time and grow easily.",
     badge: "Enterprise Grade",
     icon: "Code2",
     features: [
-      "Custom SaaS & Cloud Platforms",
-      "API Design & Distributed Systems",
-      "Legacy Codebase Modernization",
-      "Automated CI/CD & Cloud Infrastructure"
+      "Custom Web & Cloud Software",
+      "Easy API Connections",
+      "Modernizing Old Software",
+      "Automated Cloud Upgrades"
     ],
     techStack: ["React", "TypeScript", "Node.js", "Python", "PostgreSQL", "AWS"],
     metrics: [
       { label: "Uptime Guaranteed", value: "99.98%" },
-      { label: "Throughput Boost", value: "4.2x" }
+      { label: "Work Speed Boost", value: "4.2x" }
     ]
   },
   {
     id: "mobile-app",
     title: "Mobile App Development",
-    shortDescription: "Native and cross-platform iOS & Android mobile applications with fluid 120fps interactions.",
-    fullDescription: "We design and engineer captivating mobile products that delight end-users. Built for high responsiveness, offline capabilities, secure biometrics, and real-time syncing.",
+    shortDescription: "Fast, user-friendly mobile apps for iPhone and Android devices.",
+    fullDescription: "We build smooth mobile apps that your customers will love using. They work offline, support biometric login, and send instant notifications.",
     badge: "iOS & Android",
     icon: "Smartphone",
     features: [
-      "React Native & Swift / Kotlin",
-      "Offline-first Architecture & Sync",
-      "Push Notifications & In-App Purchases",
-      "Biometric Security & Encrypted Storage"
+      "iPhone & Android Apps",
+      "Works Offline & Syncs Data",
+      "Push Notifications & Payments",
+      "Secure Login & Face ID"
     ],
     techStack: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "GraphQL"],
     metrics: [
@@ -52,39 +52,77 @@ export const servicesData: ServiceItem[] = [
   {
     id: "ecommerce-solution",
     title: "E-Commerce Solution",
-    shortDescription: "High-conversion headless storefronts and multichannel commerce engines engineered for high sales volume.",
-    fullDescription: "Deliver lightning-fast shopping experiences with sub-second page loads, seamless checkout gateways, automated inventory synchronization, and customized B2B/B2C logic.",
-    badge: "High Conversion",
+    shortDescription: "Fast online stores designed to increase sales and streamline checkout.",
+    fullDescription: "We create fast online stores that load instantly on mobile and desktop. Make buying easy for your customers with simple payments and automated stock tracking.",
+    badge: "High Sales",
     icon: "ShoppingBag",
     features: [
-      "Headless Shopify & Custom Storefronts",
-      "Stripe & Multi-Currency Payment Engines",
-      "Real-time Inventory & ERP Integration",
-      "Cart Optimization & High-Speed Checkout"
+      "Custom Online Storefronts",
+      "Secure Credit Card Payments",
+      "Automatic Stock & Order Tracking",
+      "Fast & Simple Checkout"
     ],
     techStack: ["Next.js", "Shopify Plus", "Stripe", "Algolia", "Tailwind CSS", "Redis"],
     metrics: [
-      { label: "Conversion Lift", value: "+38%" },
+      { label: "Sales Increase", value: "+38%" },
       { label: "Checkout Speed", value: "<1.2s" }
     ]
   },
   {
     id: "erp-cms-solution",
-    title: "ERP CMS Solution",
-    shortDescription: "Unified enterprise resource planning and bespoke content management hubs built for operational precision.",
-    fullDescription: "Centralize your organization's operations, assets, human resources, and multi-channel content workflows in a single, intuitive interface with role-based governance.",
-    badge: "Operational Precision",
+    title: "ERP & CMS Solutions",
+    shortDescription: "All-in-one business management and content systems for your team.",
+    fullDescription: "Manage your team, inventory, content, and reports from one easy dashboard. Organize your company and keep everyone working smoothly together.",
+    badge: "Business Tools",
     icon: "Layers",
     features: [
-      "Custom Workflow Automation",
-      "Role-Based Access Control (RBAC)",
-      "Multi-Tenant Content Delivery",
-      "Audit Trails & Financial Reporting"
+      "Automated Business Tasks",
+      "User Roles & Permissions",
+      "Easy Content Management",
+      "Simple Financial Reports"
     ],
     techStack: ["React", "NestJS", "PostgreSQL", "Prisma", "Docker", "Tailwind"],
     metrics: [
       { label: "Admin Time Saved", value: "65%" },
       { label: "Data Accuracy", value: "100%" }
+    ]
+  },
+  {
+    id: "ui-ux-design",
+    title: "UI/UX Design & Branding",
+    shortDescription: "Clean, attractive website and app designs that engage your audience.",
+    fullDescription: "We design clean, intuitive user interfaces that make software effortless and enjoyable to use for all your customers.",
+    badge: "Design Systems",
+    icon: "Palette",
+    features: [
+      "User Journey & Wireframes",
+      "Modern Design Systems",
+      "Interactive Prototypes",
+      "Usability & Accessibility Testing"
+    ],
+    techStack: ["Figma", "Framer", "Tailwind CSS", "Adobe CC", "Storybook"],
+    metrics: [
+      { label: "User Engagement", value: "+52%" },
+      { label: "Design Handoff", value: "2x Faster" }
+    ]
+  },
+  {
+    id: "cloud-devops",
+    title: "Cloud & DevOps Solutions",
+    shortDescription: "Secure, reliable cloud servers and setup to keep your software online 24/7.",
+    fullDescription: "We set up fast, safe, and cost-effective cloud servers so your website or app stays online and performs smoothly as you grow.",
+    badge: "24/7 Reliability",
+    icon: "Cloud",
+    features: [
+      "Automated Cloud Deployments",
+      "24/7 Server Monitoring",
+      "Data Backup & Recovery",
+      "Security & Firewall Setup"
+    ],
+    techStack: ["AWS", "Google Cloud", "Docker", "Kubernetes", "GitHub Actions", "Terraform"],
+    metrics: [
+      { label: "Server Uptime", value: "99.99%" },
+      { label: "Deployment Speed", value: "10x Faster" }
     ]
   }
 ];

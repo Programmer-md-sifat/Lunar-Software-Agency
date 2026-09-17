@@ -32,7 +32,7 @@ export const jobOpenings: JobOpening[] = [
     location: "Remote / Hybrid",
     type: "Full-time",
     experience: "5+ years",
-    description: "Lead architecture for large-scale enterprise custom software projects. Build resilient frontend systems and scalable backend microservices.",
+    description: "Build fast, easy-to-use web apps and backend services for our enterprise clients.",
     tags: ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"]
   },
   {
@@ -42,7 +42,7 @@ export const jobOpenings: JobOpening[] = [
     location: "Remote",
     type: "Full-time",
     experience: "4+ years",
-    description: "Craft high-performance, animation-rich iOS and Android mobile solutions for world-class fintech and e-commerce clients.",
+    description: "Create smooth, reliable iOS and Android mobile apps that users love.",
     tags: ["React Native", "Swift", "Kotlin", "Animation", "Performance"]
   },
   {
@@ -52,7 +52,7 @@ export const jobOpenings: JobOpening[] = [
     location: "San Francisco, CA / Remote",
     type: "Full-time",
     experience: "6+ years",
-    description: "Design robust data models and custom enterprise ERP pipelines connecting high-volume business systems.",
+    description: "Help design clear software plans and connect business tools together seamlessly.",
     tags: ["System Design", "AWS", "Prisma", "Distributed Systems"]
   },
   {
@@ -62,28 +62,28 @@ export const jobOpenings: JobOpening[] = [
     location: "New York, NY / Remote",
     type: "Full-time",
     experience: "4+ years",
-    description: "Formulate crisp, accessible design systems, interactive prototypes, and luxury digital experiences.",
+    description: "Design clean, beautiful user interfaces and simple interactive prototypes.",
     tags: ["Figma", "Design Systems", "Prototyping", "UX Strategy"]
   }
 ];
 
 export const clientReviews = [
   {
-    quote: "SoftLunar delivered our core ERP solution 3 weeks ahead of schedule. Their attention to UX and architectural durability transformed our operational velocity.",
+    quote: "LESoft built our business software 3 weeks ahead of schedule. The system is easy to use and helped our team work much faster.",
     author: "Elena Rostova",
     role: "Chief Technology Officer",
     company: "Acme Industrial Corp",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80"
   },
   {
-    quote: "The mobile app engineered by SoftLunar holds a consistent 4.9 rating on the App Store with zero downtime during our viral product launch.",
+    quote: "The mobile app created by LESoft has a 4.9 star rating on the App Store. It worked smoothly with zero crashes during our product launch.",
     author: "Marcus Vance",
     role: "VP of Product",
     company: "GlobalBank Digital",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
   },
   {
-    quote: "Their headless e-commerce engineering boosted our conversion by 44% within the first month. An exceptionally talented software engineering team.",
+    quote: "Our online store sales grew by 44% in the very first month. They are a friendly and extremely skilled software team.",
     author: "Sophia Chen",
     role: "Head of Digital Commerce",
     company: "Capsule Fashion Labs",

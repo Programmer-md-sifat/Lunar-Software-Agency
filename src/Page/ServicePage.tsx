@@ -27,13 +27,13 @@ export const ServicePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center max-w-4xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#F0EDFF] text-[#5B4DFC] text-xs font-semibold mb-4 border border-[#E2DCFF]">
             <Sparkles size={14} />
-            <span>Enterprise Engineering Practices</span>
+            <span>Our Core Services</span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#0B0E14] tracking-tight mb-6 leading-tight">
-            Specialized engineering for ambitious digital products
+            Software solutions built for your growing business
           </h1>
           <p className="text-neutral-500 text-lg leading-relaxed max-w-2xl mx-auto">
-            From modern distributed platforms and native mobile apps to headless commerce engines and mission-critical ERP suites.
+            From web applications and mobile apps to online stores and custom business tools, we build software that works for you.
           </p>
         </div>
       </section>
@@ -82,21 +82,21 @@ export const ServicePage: React.FC = () => {
                   <div className="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto mb-4">
                     <Check size={32} />
                   </div>
-                  <h3 className="text-2xl font-bold text-[#0B0E14] mb-2">Request Transmitted</h3>
+                  <h3 className="text-2xl font-bold text-[#0B0E14] mb-2">Request Sent!</h3>
                   <p className="text-neutral-500 text-sm">
-                    Our lead architect for <strong>{selectedServiceForInquiry.title}</strong> will review your request and reach out within 24 hours.
+                    Our team lead for <strong>{selectedServiceForInquiry.title}</strong> will review your message and reach out within 24 hours.
                   </p>
                 </div>
               ) : (
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-[#5B4DFC]">
-                    Quick Discovery
+                    Get In Touch
                   </span>
                   <h3 className="text-2xl font-bold text-[#0B0E14] mb-2">
                     Inquire about {selectedServiceForInquiry.title}
                   </h3>
                   <p className="text-neutral-500 text-sm mb-6">
-                    Leave your details and an overview of your technical objectives.
+                    Leave your contact details and a short description of what you need.
                   </p>
 
                   <form onSubmit={handleInquirySubmit} className="space-y-4">
