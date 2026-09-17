@@ -27,7 +27,6 @@ interface TechCategory {
 }
 
 export const TechStackSection: React.FC = () => {
-  const [selectedTech, setSelectedTech] = useState<string | null>(null);
   const [activeFilter, setActiveFilter] = useState<string>("all");
 
   const categories: TechCategory[] = [
@@ -228,73 +227,20 @@ export const TechStackSection: React.FC = () => {
 
                 {/* Right Technology Pills Row */}
                 <div className="lg:col-span-9 flex flex-wrap items-center gap-2.5 sm:gap-3">
-                  {cat.technologies.map((tech) => {
-                    const isSelected = selectedTech === tech.name;
-
-                    return (
-                      <div key={tech.name} className="relative group">
-                        <motion.button
-                          whileHover={{ y: -2, scale: 1.02 }}
-                          whileTap={{ scale: 0.98 }}
-                          onClick={() =>
-                            setSelectedTech(isSelected ? null : tech.name)
-                          }
-                          className={`px-4 sm:px-5 py-2.5 rounded-xl sm:rounded-2xl text-xs sm:text-[13px] font-bold transition-all cursor-pointer border ${
-                            isSelected
-                              ? "bg-[#0B0E14] text-white border-[#0B0E14] shadow-md ring-2 ring-blue-500/20"
-                              : "bg-white text-neutral-800 border-neutral-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:border-neutral-300 hover:shadow-[0_4px_14px_rgba(0,0,0,0.06)]"
-                          }`}
-                        >
-                          {tech.name}
-                        </motion.button>
-
-                        {/* Interactive Tooltip/Hover card preview */}
-                        <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-52 p-3 bg-[#0B0E14] text-white text-[11px] rounded-xl shadow-xl opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-200 z-30">
-                          <p className="font-bold text-blue-300 mb-0.5">{tech.name}</p>
-                          <p className="text-neutral-300 leading-snug">{tech.description}</p>
-                          <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-1 border-4 border-transparent border-t-[#0B0E14]" />
-                        </div>
-                      </div>
-                    );
-                  })}
+                  {cat.technologies.map((tech) => (
+                    <motion.div
+                      key={tech.name}
+                      whileHover={{ y: -2 }}
+                      className="px-4 sm:px-5 py-2.5 rounded-xl sm:rounded-2xl text-xs sm:text-[13px] font-bold bg-white text-neutral-800 border border-neutral-200/90 shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:border-neutral-300 hover:shadow-[0_4px_14px_rgba(0,0,0,0.06)] transition-all cursor-default"
+                    >
+                      {tech.name}
+                    </motion.div>
+                  ))}
                 </div>
               </motion.div>
             );
           })}
         </div>
-
-        {/* Selected Tech Detail Bar if clicked */}
-        <AnimatePresence>
-          {selectedTech && (
-            <motion.div
-              initial={{ opacity: 0, y: 15 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 10 }}
-              className="mt-6 p-5 sm:p-6 rounded-2xl bg-gradient-to-r from-blue-50 via-white to-purple-50 border border-blue-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-sm"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-full bg-[#0B0E14] text-white flex items-center justify-center font-bold text-xs">
-                  <CheckCircle2 size={16} className="text-emerald-400" />
-                </div>
-                <div>
-                  <h4 className="text-sm font-extrabold text-[#0B0E14]">
-                    Selected Framework: <span className="text-[#2563EB]">{selectedTech}</span>
-                  </h4>
-                  <p className="text-xs text-neutral-500">
-                    Fully production supported with established engineering patterns, tests, and CI/CD deployment hooks.
-                  </p>
-                </div>
-              </div>
-
-              <button
-                onClick={() => setSelectedTech(null)}
-                className="text-xs font-bold text-neutral-500 hover:text-neutral-800 transition-colors px-3 py-1.5 rounded-lg bg-white border border-neutral-200 cursor-pointer self-end sm:self-center"
-              >
-                Dismiss
-              </button>
-            </motion.div>
-          )}
-        </AnimatePresence>
       </div>
     </section>
   );

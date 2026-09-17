@@ -28,8 +28,8 @@ export const Footer: React.FC = () => {
           {/* Brand & Mission column */}
           <div className="lg:col-span-4 space-y-6">
             <Link to="/" className="flex items-center gap-1 text-2xl font-bold tracking-tight text-white group">
-              <span className="font-extrabold tracking-tight">Soft</span>
-              <span className="font-semibold text-neutral-300">Lunar</span>
+              <span className="font-extrabold tracking-tight">LE</span>
+              <span className="font-semibold text-neutral-300">Soft</span>
               <span className="w-1.5 h-1.5 rounded-full bg-[#5B4DFC] ml-0.5" />
             </Link>
             <p className="text-neutral-400 text-[15px] leading-relaxed max-w-sm">

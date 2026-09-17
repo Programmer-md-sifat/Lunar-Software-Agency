@@ -101,7 +101,7 @@ export const StrategySection: React.FC = () => {
               transition={{ duration: 0.5 }}
               className="text-4xl sm:text-5xl lg:text-[52px] font-extrabold text-[#0B0E14] tracking-[-0.03em] leading-tight"
             >
-              Our Strategy
+              Our Proven Strategy & Engineering Process
             </motion.h2>
           </div>
 

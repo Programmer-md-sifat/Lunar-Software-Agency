@@ -11,16 +11,16 @@ interface HeroSlide {
 export const HeroSection: React.FC = () => {
   const slides: HeroSlide[] = [
     {
-      title: "Mobile Apps, E-commerce & AI Solutions",
-      des: "From high-performance mobile applications and e-commerce platforms to AI-powered business solutions, we build reliable digital products that accelerate your success.",
+      title: "Custom Web & Software Development",
+      des: "Empowering enterprises with ultra-fast web platforms, cloud architectures, and scalable software built to accelerate digital growth.",
     },
     {
-      title: "Scalable ERP, CRM & Enterprise Software",
-      des: "Transform your business with custom ERP, CRM, and enterprise software solutions that automate workflows, optimize operations, and support long-term growth.",
+      title: "Mobile Apps & AI-Powered Solutions",
+      des: "Engineered for speed and engagement. We craft high-performance mobile apps and integrate AI to elevate user experiences.",
     },
     {
-      title: "Custom Web Solutions for Modern Business",
-      des: "We design and develop fast, secure, and scalable websites and web applications that help businesses grow, improve efficiency, and deliver exceptional digital experiences.",
+      title: "Enterprise Cloud & Custom ERP Systems",
+      des: "Streamline operations and eliminate technical debt with resilient cloud infrastructure, custom CMS, and automated business workflows.",
     },
   ];
 

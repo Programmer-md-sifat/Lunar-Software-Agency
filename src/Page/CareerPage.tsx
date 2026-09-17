@@ -49,29 +49,8 @@ export const CareerPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Perks Grid */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mb-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {perks.map((p, i) => {
-            const Icon = p.icon;
-            return (
-              <div
-                key={i}
-                className="bg-white p-7 rounded-3xl border border-neutral-200/80 shadow-[0_4px_20px_rgba(0,0,0,0.02)] flex flex-col"
-              >
-                <div className="w-12 h-12 rounded-2xl bg-[#F0EDFF] text-[#5B4DFC] flex items-center justify-center mb-5">
-                  <Icon size={24} />
-                </div>
-                <h3 className="text-lg font-bold text-[#0B0E14] mb-2">{p.title}</h3>
-                <p className="text-neutral-500 text-sm leading-relaxed">{p.desc}</p>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
       {/* Open Positions */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mb-20">
         <div className="mb-10">
           <h2 className="text-3xl font-extrabold text-[#0B0E14] tracking-tight mb-2">
             Open Positions ({jobOpenings.length})
@@ -89,6 +68,31 @@ export const CareerPage: React.FC = () => {
               onApply={(j) => setSelectedJob(j)}
             />
           ))}
+        </div>
+      </section>
+
+      {/* Perks Grid (After Open Positions) */}
+      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {perks.map((p, i) => {
+            const Icon = p.icon;
+            return (
+              <div
+                key={i}
+                className="bg-white p-7 sm:p-8 rounded-[28px] sm:rounded-[32px] border border-neutral-200/80 shadow-[0_4px_20px_rgba(0,0,0,0.02)] hover:shadow-[0_12px_30px_rgba(0,0,0,0.05)] transition-all duration-300 flex flex-col justify-start"
+              >
+                <div className="w-12 h-12 rounded-2xl bg-[#F0EDFF] text-[#2563EB] flex items-center justify-center mb-6 shrink-0 shadow-2xs">
+                  <Icon size={22} strokeWidth={2.2} />
+                </div>
+                <h3 className="text-lg sm:text-xl font-extrabold text-[#0B0E14] mb-3 tracking-tight">
+                  {p.title}
+                </h3>
+                <p className="text-neutral-500 text-sm leading-relaxed">
+                  {p.desc}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </section>
 

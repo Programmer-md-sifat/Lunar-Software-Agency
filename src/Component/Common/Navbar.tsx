@@ -43,8 +43,8 @@ export const Navbar: React.FC = () => {
           id="brand-logo-link"
           className="flex items-center gap-1 text-2xl font-bold tracking-tight text-[#0B0E14] group"
         >
-          <span className="font-extrabold tracking-tight">Soft</span>
-          <span className="font-semibold text-neutral-800">Lunar</span>
+          <span className="font-extrabold tracking-tight">LE</span>
+          <span className="font-semibold text-neutral-800">Soft</span>
           <span className="w-1.5 h-1.5 rounded-full bg-[#5B4DFC] ml-0.5 group-hover:scale-125 transition-transform" />
         </Link>
 
